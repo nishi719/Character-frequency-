@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Character Frequency</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Character Frequency Counter</h1>
+        </header>
+        <main>
+            <div id="query" class="container">
+                <input type="text" id="input" class="no-border" placeholder="Enter a string">
+                <button id="btn" class="no-border">Count</button>
+            </div>
+
+            <div id="result" class="container invisible">
+                <h2>Result</h2>
+                <div id="result-container">
+                    <table id="result-table">
+                        <thead>
+                            <tr>
+                                <th>Character</th>
+                                <th>Frequency</th>
+                            </tr>
+                        </thead>
+                        <tbody id="result-body"></tbody>
+                </div>
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
